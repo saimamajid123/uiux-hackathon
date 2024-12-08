@@ -1,3 +1,5 @@
+//@typescript-eslint/no-explicit-any
+
 const ProductCard = ({ image, name, price }:any) => (
     <div className="border rounded-lg p-4 shadow-sm hover:shadow-lg">
       <img src={image} alt={name} className="w-full h-40 object-cover mb-4" />
