@@ -1,4 +1,4 @@
-import Header from "./component/navbar";
+import Navbar from "./component/navbar";
 import HeroSection from "./component/Hero";
 import LogoStrip from "./component/apple";
 import FeaturedProducts from "./component/hi";
@@ -9,17 +9,22 @@ import ProductGrid from "./component/cat";
 import Footer from "./component/footer";
 import Featuredproducts from "./component/hi";
 import Cart from "./component/jojo";
+
 import ContactForm from "./component/doo";
 import FAQSection from "./component/box";
 import FAQPage from "./component/Bob";
 import HomePage from "./component/Boc";
+import Header from "./component/Sox";
+
+import New from "./component/New";
+
 
 
 
 export default function Home() {
   return (
 <div>
-  <Header/>
+  <Navbar/>
  <HeroSection/>
  < LogoStrip />
  <FeaturedProducts/>
@@ -48,6 +53,7 @@ export default function Home() {
  <FAQPage/>
  < HomePage/>
  <Header/>
+ <New/>
  
  
   
